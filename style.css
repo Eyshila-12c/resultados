@@ -105,6 +105,8 @@ font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 2px;
     color:var(--white);
+    text-align:center;
+    text-decoration:none;
 }
 
 .card > button:hover{
