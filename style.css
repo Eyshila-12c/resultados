@@ -57,6 +57,12 @@ font-size: 15px;
     line-height: 24px;
 }
 
+.notas {
+    display: flex;
+    justif-content: space-between;
+    margin-botton:32px;
+}
+
 .notas{
     display:flex;
     justify-conetent: space-between;
@@ -72,8 +78,37 @@ font-size: 15px;
     border: none;
     color: var(--mediun-grey);
     background-color: var(--very-dark-blue);
+     transition: all ease-in-out;
 }
 
+
 .notas button:hover {
-    
+    color: var(--whie );
+    background-color: var(var(--orange));
+    cursor: pointer; 
+}
+
+.notas button:focus {
+    color: var(--white);
+    color: var(--light-grey);
+}
+
+.card > button {
+    width: 100%;
+    padding: 13px;
+    background-color:var(--orange);
+    border: none;
+    boder-radius:22px
+
+    font-size :15px;
+    font-weight:70;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:var(--white);
+}
+
+.card > button:hover{
+    color: var(--orange);
+    bacground-color: var(--white);
+    cursor: pointer;
 }
